@@ -9,13 +9,13 @@ datepicker select, datepicker select:focus, datepicker select:hover,
 .datepicker select, .datepicker select:focus, .datepicker select:hover,
 [datepicker] select, [datepicker] select:focus, [datepicker] select:hover{
   width:100%;
-   overflow: hidden;
-   background:none;
-   color:#fff;
-   background-color: #138EFA;
-   border-radius:2px;
-   border: 0;
-   margin-top:5px;
+  overflow: hidden;
+  background:none;
+  color:#fff;
+  background-color: #6AB2E7;
+  border-radius:2px;
+  border: 0;
+  margin-top:5px;
 }
 datepicker, .datepicker, [datepicker],
 ._720kb-datepicker-calendar-header,
@@ -38,7 +38,7 @@ datepicker, .datepicker, [datepicker],
   background: white;
   color: #333;
   position: absolute;
-  z-index: 999;
+  z-index: 40;
   min-width: 220px;
   margin: 0 auto;
   width: 101%;
@@ -62,10 +62,10 @@ datepicker, .datepicker, [datepicker],
   line-height: 40px;
 }
 ._720kb-datepicker-calendar-header:nth-child(odd) {
-  background: #138EFA;
+  background: #6AB2E7;
 }
 ._720kb-datepicker-calendar-header:nth-child(even) {
-  background: #7BC6FC;
+  background: #B3D9F3;
 }
 ._720kb-datepicker-calendar-header-left,
 ._720kb-datepicker-calendar-header-middle,
@@ -128,7 +128,7 @@ datepicker, .datepicker, [datepicker],
   background: rgba(255, 255, 255, 0.45);
 }
 ._720kb-datepicker-calendar-month {
-  color:#fff;
+  color:rgba(0, 0, 0, 0.4);
 }
 ._720kb-datepicker-calendar-month span {
   font-size: 13px;
