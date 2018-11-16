@@ -134,8 +134,8 @@
         toReturn.splice(toReturn.length - 1, 0, aRow);
       };
 
-      monthAndYearHeader.forEach(iterator);
       yearsPaginationHeader.forEach(iterator);
+      monthAndYearHeader.forEach(iterator);
       daysColumns.forEach(iterator);
       days.forEach(iterator);
 
